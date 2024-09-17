@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Embed section</title>
+
+    <link rel="stylesheet" href="nite-embed.min.css" />
+    <script src="nite-embed.min.js"></script>
+  </head>
+
+  <body>
+    <div class="container" id="nite-embed">
+      <div class="section">
+        <div class="left-side">
+          <h1 id="title">Se incarca bilet...</h1>
+          <p id="description">?</p>
+        </div>
+        <div class="middle">
+          <h2 id="price">? RON</h2>
+        </div>
+        <div class="right-side">
+          <div class="counter-container">
+            <button class="decrement-button">-</button>
+            <div class="counter-display">
+              <p class="counter-value">0</p>
+            </div>
+            <button class="increment-button">+</button>
+          </div>
+        </div>
+      </div>
+      <button class="button" onclick="buyTicket()">Cumpără bilet</button>
+    </div>
+    <script>
+      const TICKET = "tic_Yz9KE6Ud0rXsm3tqP614";
+      const EVENT = "eve_U26xxsFMhN3cWM78UJpk";
+    </script>
+  </body>
+</html>
